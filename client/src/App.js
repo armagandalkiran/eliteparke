@@ -3,7 +3,7 @@ import './index.css';
 
 function App() {
   return (<div>
-    <h1 className="text-primary text-4xl">hello world !</h1>
+    <h1 className="text-primary text-4xl">hello can !</h1>
   </div>
   )
 }

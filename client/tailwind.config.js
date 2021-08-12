@@ -7,6 +7,7 @@ module.exports = {
         customText:"#696969",
         primary:"#3A3D34",
         secondary:"#181916",
+        header:"#474747",
         contactText:"#843939",
       },
       fontFamily: {

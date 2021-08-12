@@ -13,7 +13,7 @@ export default function Footer() {
                         <div className="col-span-1 flex items-center justify-center">
                             <PinIcon className="w-6 h-6 md:w-8 h-8"/>
                         </div>
-                        <div className="col-span-2 text-left text-xs md:max-w-xs md:text-sm">
+                        <div className="col-span-2 text-left text-xs md:max-w-xs md:text-base lg:text-lg">
                         Kemeraltı Mah Org. Mustafa Muğlalı Cad No:21/1 48700 Marmaris/Muğla
                         </div>
                     </div>
@@ -21,7 +21,7 @@ export default function Footer() {
                         <div className="col-span-1 flex items-center justify-center">
                             <PhoneIcon className="w-6 h-6 md:w-8 h-8"/>
                         </div>
-                        <div className="col-span-2 flex items-center justify-start text-xs md:text-sm">
+                        <div className="col-span-2 flex items-center justify-start text-xs md:text-base lg:text-lg">
                         +90 (555) 555 55 55
                         </div>
                     </div>
@@ -29,7 +29,7 @@ export default function Footer() {
                         <div className="col-span-1 flex items-center justify-center">
                             <MailIcon className="w-6 h-6 md:w-8 h-8"/>
                         </div>
-                        <div className="col-span-2 flex items-center justify-start text-xs md:text-sm">
+                        <div className="col-span-2 flex items-center justify-start text-xs md:text-base lg:text-lg">
                         deneme@hotmail.com
                         </div>
                     </div>

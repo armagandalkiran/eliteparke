@@ -27,7 +27,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="text-center absolute bg-white w-full z-10">
-      <ul className=" text-customText font-bold hidden" id="menu">
+      <ul className=" text-customText font-bold hidden flex flex-col" id="menu">
         <Link to="/hakkimizda" className="p-2">Hakkımızda</Link>
         <Link to="/urunler" className="p-2">Ürünler</Link>
         <Link to="/referanslar" className="p-2">Referanslar</Link>

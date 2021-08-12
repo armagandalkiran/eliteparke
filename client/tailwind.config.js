@@ -4,7 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        primary:"#6c5f13",
+        customText:"#696969",
+        primary:"#3A3D34",
+        secondary:"#181916",
+        contactText:"#843939",
+      },
+      fontFamily: {
+        body: ["Nunito, sans-serif"],
       },
     },
   },

@@ -8,11 +8,12 @@ import Products from "./pages/Products";
 
 function App() {
   return (<>
-    <Navbar/>
+    
     <Router>
+    <Navbar/>
       <Switch>
-        <Route exact path = "/" component={Home}/>
-        <Route exact path = "/ürünler" component={Products} />
+        <Route exact path ="/" component={Home}/>
+        <Route exact path ="/urunler" component={Products} />
       </Switch>
     </Router>
     <Footer/>

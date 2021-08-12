@@ -19,11 +19,11 @@ export default function Navbar() {
         <h1 className="text-2xl font-extrabold md:hidden uppercase">Elite Parke</h1>
         <MenuIcon className="w-6 md:hidden" onClick={navbarToggle}/>
         <ul className="text-xl text-center text-customText font-bold hidden md:flex md:justify-around md:w-full md:py-5 md:px-20 items-center ">
-        <NavLink to = "/hakkimizda" className="mr-4">Hakkımızda</NavLink>
-        <NavLink to = "/urunler" className="mr-4">Ürünler</NavLink>
-        <Link exact to = "/" className="mr-4"><h1 className="text-4xl font-extrabold uppercase">Elite Parke</h1></Link>
-        <NavLink to = "/referanslar" className="mr-4">Referanslar</NavLink>
-        <NavLink to = "/iletisim" className="">İletişim</NavLink>
+        <NavLink exact to = "/hakkimizda" className="mr-4">Hakkımızda</NavLink>
+        <NavLink exact to = "/urunler" className="mr-4">Ürünler</NavLink>
+        <Link to = "/" className="mr-4"><h1 className="text-4xl font-extrabold uppercase">Elite Parke</h1></Link>
+        <NavLink exact to = "/referanslar" className="mr-4">Referanslar</NavLink>
+        <NavLink exact to = "/iletisim" className="">İletişim</NavLink>
         </ul>
       </div>
       <div className="text-center absolute bg-white w-full z-10">

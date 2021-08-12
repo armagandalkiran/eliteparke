@@ -6,7 +6,7 @@ import homeLamine from "../images/home-lamine.png";
 
 export default function Home() {
   return (
-    <div>
+    <div className="mt-28 md:mt36">
       {/* Header */}
       <div className="sliderAx h-auto p-2">
         <div id="slider-1" className="container mx-auto">

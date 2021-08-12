@@ -4,45 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>eliteparke</title>
+    <title>Elite Parke</title>
   </head>
   <body class="font-body">
     <div id="root"></div>
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     <script>
-      var cont = 0;
-      function loopSlider() {
-        var xx = setInterval(function () {
-          switch (cont) {
-            case 0: {
-              $("#slider-1").fadeOut(400);
-              $("#slider-2").delay(400).fadeIn(400);
-              $("#sButton1").removeClass("bg-purple-800");
-              $("#sButton2").addClass("bg-purple-800");
-              cont = 1;
+       var cont=0;
+function loopSlider(){
+  var xx= setInterval(function(){
+        switch(cont)
+        {
+        case 0:{
+            $("#slider-1").fadeOut(400);
+            $("#slider-2").delay(400).fadeIn(400);
+            $("#sButton1").removeClass("bg-purple-800");
+            $("#sButton2").addClass("bg-purple-800");
+        cont=1;
+        
+        break;
+        }
+        case 1:
+        {
+        
+            $("#slider-2").fadeOut(400);
+            $("#slider-1").delay(400).fadeIn(400);
+            $("#sButton2").removeClass("bg-purple-800");
+            $("#sButton1").addClass("bg-purple-800");
+           
+        cont=0;
+        
+        break;
+        }
+        
+        
+        }},8000);
 
-              break;
-            }
-            case 1: {
-              $("#slider-2").fadeOut(400);
-              $("#slider-1").delay(400).fadeIn(400);
-              $("#sButton2").removeClass("bg-purple-800");
-              $("#sButton1").addClass("bg-purple-800");
+}
 
-              cont = 0;
 
-              break;
-            }
-          }
-        }, 8000);
-      }
-      $(window).ready(function () {
+    $(window).ready(function(){
         $("#slider-2").hide();
         $("#sButton1").addClass("bg-purple-800");
-
+        
         loopSlider();
-      });
+    
+    });
     </script>
   </body>
 </html>

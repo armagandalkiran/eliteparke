@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactComponent as MenuIcon } from "../svgs/menu.svg";
+import { NavLink,Link } from "react-router-dom";
 
 export default function Navbar() {
 
@@ -17,20 +18,20 @@ export default function Navbar() {
       <div className="flex justify-between items-center  text-customText p-6 relative">
         <h1 className="text-2xl font-extrabold md:hidden uppercase">Elite Parke</h1>
         <MenuIcon className="w-6 md:hidden" onClick={navbarToggle}/>
-        <ul className=" text-customText font-bold hidden md:flex md:justify-around md:w-full md:py-5 md:px-20 items-center ">
-        <li className="">Hakkımızda</li>
-        <li className="">Ürünler</li>
-        <li className=""><h1 className="text-2xl font-extrabold uppercase">Elite Parke</h1></li>
-        <li className="">Referanslar</li>
-        <li className="">İletişim</li>
-      </ul>
+        <ul className="text-xl text-center text-customText font-bold hidden md:flex md:justify-around md:w-full md:py-5 md:px-20 items-center ">
+        <NavLink to = "/hakkimizda" className="mr-4">Hakkımızda</NavLink>
+        <NavLink to = "/urunler" className="mr-4">Ürünler</NavLink>
+        <Link exact to = "/" className="mr-4"><h1 className="text-4xl font-extrabold uppercase">Elite Parke</h1></Link>
+        <NavLink to = "/referanslar" className="mr-4">Referanslar</NavLink>
+        <NavLink to = "/iletisim" className="">İletişim</NavLink>
+        </ul>
       </div>
       <div className="text-center absolute bg-white w-full z-10">
       <ul className=" text-customText font-bold hidden" id="menu">
-        <li className="p-2">Hakkımızda</li>
-        <li className="p-2">Ürünler</li>
-        <li className="p-2">Referanslar</li>
-        <li className="p-2">İletişim</li>
+        <Link to="/hakkimizda" className="p-2">Hakkımızda</Link>
+        <Link to="/urunler" className="p-2">Ürünler</Link>
+        <Link to="/referanslar" className="p-2">Referanslar</Link>
+        <Link to="/iletisim" className="p-2">İletişim</Link>
       </ul>
       </div>
     </>

@@ -1,12 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import Navbar from "./components/Navbar";
 import "./index.css";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 
 function App() {
   return (<>
-    {/* <Navbar/> */}
+    <Navbar/>
     <Router>
       <Switch>
         <Route exact path = "/" component={Home}/>

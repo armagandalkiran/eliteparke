@@ -43,3 +43,26 @@
     color:#181916;
     text-decoration: underline;
 }
+
+.home-image{
+    transition:all .5s ease-out;
+}
+.card-text{
+    transition:all .5s ease-out;
+}
+
+.home-card:hover .home-image{
+    filter:blur(2px) brightness(70%);
+}
+
+.home-card:hover .card-text{
+    display:block;
+}
+
+
+.absoluteCenter{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}

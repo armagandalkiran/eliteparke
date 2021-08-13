@@ -5,6 +5,8 @@ import productsdoors from "../images/products-doors.jpg";
 import productslaminant from "../images/products-laminant.jpg";
 import productslamine from "../images/products-lamine.jpg";
 import productsskirts from "../images/products-skirts.jpg";
+import {Link} from "react-router-dom";
+
 
 export default function Products() {
   return (
@@ -14,8 +16,9 @@ export default function Products() {
         <h2 className="font-bold text-xl md:text-3xl lg:text-5xl">Ürün Gruplarımız</h2>
       </div>
       <div className="grid grid-rows-3 mx-4 gap-4 md:grid-cols-3 md:grid-rows-1 mb-12">
-        <div className="row relative md:col-span-1 flex items-center justify-center">
-          <div className="absolute-center__text">
+        <Link to="/urunler/kapilar" 
+        className="row relative md:col-span-1 flex items-center justify-center product-card">
+          <div className="absolute-center__text product-card-text">
             <div className="flex flex-col items-center">
               <h3 className="text-white text-center mb-4 text-2xl md:text-xl lg:text-4xl font-bold">
                 Kapılar
@@ -24,10 +27,10 @@ export default function Products() {
             </div>
           </div>
           <img className="w-30" src={productsdoors} alt="kapilar" />
-        </div>
+        </Link>
         <div className="flex flex-col items-center justify-between">
-          <div className="row row-span-1 relative mb-4 flex items-center justify-center">
-            <div className="absolute-center__text">
+          <Link to="urunler/laminantlar"  className="row row-span-1 relative mb-4 flex items-center justify-center product-card">
+            <div className="absolute-center__text product-card-text">
               <div className="flex flex-col items-center">
                 <h3 className="text-white text-center mb-4 text-2xl md:text-xl lg:text-4xl font-bold">
                   Laminantlar
@@ -36,9 +39,9 @@ export default function Products() {
               </div>
             </div>
             <img className="" src={productslaminant} alt="laminantlar" />
-          </div>
-          <div className="row relative row-span-1 flex items-center justify-center">
-            <div className="absolute-center__text">
+          </Link>
+          <Link to="urunler/supurgelikler" className="row relative row-span-1 flex items-center justify-center product-card">
+            <div className="absolute-center__text product-card-text">
               <div className="flex flex-col items-center">
                 <h3 className="text-white text-center mb-4 text-2xl md:text-xl lg:text-4xl font-bold">
                   Süpürgelikler
@@ -47,10 +50,10 @@ export default function Products() {
               </div>
             </div>
             <img className="" src={productsskirts} alt="supurgelik" />
-          </div>
+          </Link>
         </div>
-        <div className="row relative md:col-span-1 flex items-center justify-center">
-          <div className="absolute-center__text">
+        <Link to="urunler/lamineler" className="row relative md:col-span-1 flex items-center justify-center product-card">
+          <div className="absolute-center__text product-card-text">
             <div className="flex flex-col items-center">
               <h3 className="text-white text-center mb-4 text-2xl md:text-xl lg:text-4xl font-bold">
                 Lamineler
@@ -59,7 +62,7 @@ export default function Products() {
             </div>
           </div>
           <img className="" src={productslamine} alt="lamineler" />
-        </div>
+        </Link>
       </div>
     </div>
   );

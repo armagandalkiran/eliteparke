@@ -17,7 +17,7 @@ export default function Home() {
               </h2>
               <a
                 href="/iletisim"
-                className=" border border-black text-customText font-medium text-xs md:text-l md:py-2 md:px-4 py-1 px-2 rounded hover:bg-primary hover:text-white"
+                className=" border border-black text-customText font-medium text-xs lg:font-semibold lg:text-lg md:py-2 md:px-4 py-1 px-2 rounded hover:bg-primary hover:text-white"
               >
                 İLETİŞİME GEÇİN
               </a>
@@ -37,7 +37,7 @@ export default function Home() {
               </h2>
               <a
                 href="/iletisim"
-                className=" border border-black text-customText font-medium text-xs md:text-l md:py-2 md:px-4 py-1 px-2 rounded hover:bg-primary hover:text-white"
+                className=" border border-black text-customText font-medium text-xs lg:font-semibold lg:text-lg md:py-2 md:px-4 py-1 px-2 rounded hover:bg-primary hover:text-white"
               >
                 İLETİŞİME GEÇİN
               </a>
@@ -60,12 +60,12 @@ export default function Home() {
             className="w-full home-image"
           />
           <div className="absoluteCenter text-white text-center hidden card-text">
-            <h3 className="text-sm md:text-xl mb-4 font-bold">
-              "Elite parke güvencesiyle evleriniz çelik kapılar ardında güvende"
+            <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
+            “ Laminant parkeler ile yaşam alanınızı canlı bir görünüme kavuşturun ”
             </h3>
             <a
-              className="bg-primary py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
-              href="/ürünler"
+              className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
+              href="/urunler/laminantlar"
             >
               Detay
             </a>
@@ -77,12 +77,12 @@ export default function Home() {
           </h4>
           <img src={homeDoors} alt="doors" className="home-image" />
           <div className="absoluteCenter text-white text-center hidden card-text">
-            <h3 className="text-sm md:text-xl mb-4 font-bold">
-              "Elite parke güvencesiyle evleriniz çelik kapılar ardında güvende"
+            <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
+            “ Evinizi çelik kapılar ardında güvende tutun ”
             </h3>
             <a
-              className="bg-primary py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
-              href="/ürünler"
+              className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
+              href="/urunler/kapilar"
             >
               Detay
             </a>
@@ -94,12 +94,12 @@ export default function Home() {
           </h4>
           <img src={homeSkirts} alt="skirts" className="w-full home-image" />
           <div className="absoluteCenter text-white text-center hidden card-text">
-            <h3 className="text-sm md:text-xl mb-4 font-bold">
-              "Elite parke güvencesiyle evleriniz çelik kapılar ardında güvende"
+            <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
+            “ Süpürgelik ile parke kenarındaki kötü görüntüleri ortadan kaldırın ”
             </h3>
             <a
-              className="bg-primary py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
-              href="/ürünler"
+              className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
+              href="/urunler/supurgelikler"
             >
               Detay
             </a>
@@ -111,12 +111,12 @@ export default function Home() {
           </h4>
           <img src={homeLamine} alt="lamine" className="w-full home-image" />
           <div className="absoluteCenter text-white text-center hidden card-text">
-            <h3 className="text-sm md:text-xl mb-4 font-bold">
-              "Elite parke güvencesiyle evleriniz çelik kapılar ardında güvende"
+            <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
+            “ Uzun ömürlü ve dayanıklı Lamine parkeler sayesinde konforlu bir ortam sağlayın ”
             </h3>
             <a
-              className="bg-primary py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
-              href="/ürünler"
+              className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
+              href="/urunler/lamineler"
             >
               Detay
             </a>

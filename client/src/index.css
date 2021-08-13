@@ -52,7 +52,7 @@
 }
 
 .home-card:hover .home-image{
-    filter:blur(2px) brightness(70%);
+    filter:blur(2px) brightness(65%);
 }
 
 .home-card:hover .card-text{

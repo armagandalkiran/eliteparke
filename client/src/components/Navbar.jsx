@@ -28,10 +28,10 @@ export default function Navbar() {
         </div>
         <div className="text-center absolute bg-white w-full z-10">
         <ul className=" text-customText font-bold hidden flex flex-col" id="menu">
-          <Link to="/hakkimizda" className="p-2">Hakkımızda</Link>
-          <Link to="/urunler" className="p-2">Ürünler</Link>
-          <Link to="/referanslar" className="p-2">Referanslar</Link>
-          <Link to="/iletisim" className="p-2">İletişim</Link>
+          <Link to="/hakkimizda" className="p-2" onClick={navbarToggle}>Hakkımızda</Link>
+          <Link to="/urunler" className="p-2" onClick={navbarToggle}>Ürünler</Link>
+          <Link to="/referanslar" className="p-2" onClick={navbarToggle}>Referanslar</Link>
+          <Link to="/iletisim" className="p-2" onClick={navbarToggle}>İletişim</Link>
         </ul>
         </div>
       </div>

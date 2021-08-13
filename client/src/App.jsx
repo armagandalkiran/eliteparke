@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import "./index.css";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
+import Aboutus from "./pages/Aboutus";
+import Contact from "./pages/Contact";
 import Doors from "./pages/Doors";
 import Lamine from "./pages/Lamine";
 import Laminant from "./pages/Laminant";
@@ -19,6 +21,9 @@ function App() {
       <ScrollToTop />
       <Switch>
         <Route exact path ="/" component={Home}/>
+        <Route exact path ="/urunler" component={Products} />
+        <Route exact path ="/hakkimizda" component={Aboutus} />
+        <Route exact path ="/iletisim" component={Contact} />
         <Route exact path ="/urunler" component={Products}/>
         <Route exact path ="/urunler/kapilar" component={Doors}/>
         <Route exact path ="/urunler/lamineler" component={Lamine}/>

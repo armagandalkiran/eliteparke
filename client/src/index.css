@@ -59,6 +59,12 @@
     display:block;
 }
 
+.product-card-text{
+    transition:all .5s ease-out;
+}
+.product-card:hover .product-card-text{
+    transform:translate(-50%,-50%) scale(1.1);
+}
 
 .absoluteCenter{
     position:absolute;

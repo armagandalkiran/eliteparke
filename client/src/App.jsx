@@ -11,6 +11,7 @@ import Doors from "./pages/Doors";
 import Lamine from "./pages/Lamine";
 import Laminant from "./pages/Laminant";
 import Skirts from "./pages/Skirts";
+import References from "./pages/References";
 import ScrollToTop from "./scrollToTop";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route exact path ="/hakkimizda" component={Aboutus} />
         <Route exact path ="/iletisim" component={Contact} />
         <Route exact path ="/urunler" component={Products}/>
+        <Route exact path ="/referanslar" component={References}/>
         <Route exact path ="/urunler/kapilar" component={Doors}/>
         <Route exact path ="/urunler/lamineler" component={Lamine}/>
         <Route exact path ="/urunler/laminantlar" component={Laminant}/>

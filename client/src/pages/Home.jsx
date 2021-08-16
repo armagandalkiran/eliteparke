@@ -1,18 +1,29 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Autoplay } from "swiper";
+import "swiper/swiper.scss";
+import "swiper/components/autoplay";
 import homeLaminant from "../images/home-laminant.png";
 import homeDoors from "../images/home-doors.png";
 import homeSkirts from "../images/products-skirts.png";
 import homeLamine from "../images/home-lamine.png";
 
 export default function Home() {
+  SwiperCore.use([Autoplay]);
   return (
-    <div className="mt-28 md:mt36">
+    <div className="mt-28 md:mt-36">
       {/* Header */}
-      <div className="sliderAx h-auto p-2">
-        <div id="slider-1" className="container mx-auto">
-          <div className="bg-cover bg-center  h-auto text-white  py-10 px-3 md:py-24 md:px-10 object-fill image1">
+      <div className="mb-4 py-1 px-4">
+      <Swiper
+        autoplay={{
+          delay: 8000,
+        }}
+      >
+        <SwiperSlide>
+          <div className="">
+          <div className="bg-cover bg-center h-auto text-white  py-10 px-3 md:py-24 md:px-10 object-fill image1">
             <div className="flex flex-col w-1/2 items-center text-center">
-              <h2 className="text-customText font-extrabold text-sm mb-2 md:mb-6 md:text-4xl">
+              <h2 className="text-customText font-extrabold text-md mb-2 md:mb-6 md:text-4xl">
                 Elite Parke ile konfor evinizde!
               </h2>
               <a
@@ -23,16 +34,13 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <br/>
-        </div>
-
-        <div id="slider-2" className="container mx-auto hidden">
-
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className=" ">
           <div className="bg-cover bg-center  h-auto text-white  py-10 px-3 md:py-24 md:px-10 object-fill image2">
-
-        
             <div className="flex flex-col w-1/2 items-center text-center">
-              <h2 className="text-customText font-extrabold text-sm mb-2 md:mb-6 md:text-4xl">
+              <h2 className="text-customText font-extrabold text-md mb-2 md:mb-6 md:text-4xl">
                 Elite Parke ile kalite evinizde!
               </h2>
               <a
@@ -43,9 +51,11 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <br />
-        </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
       </div>
+
       {/* Header end */}
 
       {/* Main */}
@@ -61,7 +71,8 @@ export default function Home() {
           />
           <div className="absoluteCenter text-white text-center hidden card-text">
             <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
-            “ Laminant parkeler ile yaşam alanınızı canlı bir görünüme kavuşturun ”
+              “ Laminant parkeler ile yaşam alanınızı canlı bir görünüme
+              kavuşturun ”
             </h3>
             <a
               className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
@@ -78,7 +89,7 @@ export default function Home() {
           <img src={homeDoors} alt="doors" className="home-image" />
           <div className="absoluteCenter text-white text-center hidden card-text">
             <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
-            “ Evinizi çelik kapılar ardında güvende tutun ”
+              “ Evinizi çelik kapılar ardında güvende tutun ”
             </h3>
             <a
               className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
@@ -95,7 +106,8 @@ export default function Home() {
           <img src={homeSkirts} alt="skirts" className="w-full home-image" />
           <div className="absoluteCenter text-white text-center hidden card-text">
             <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
-            “ Süpürgelik ile parke kenarındaki kötü görüntüleri ortadan kaldırın ”
+              “ Süpürgelik ile parke kenarındaki kötü görüntüleri ortadan
+              kaldırın ”
             </h3>
             <a
               className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
@@ -112,7 +124,8 @@ export default function Home() {
           <img src={homeLamine} alt="lamine" className="w-full home-image" />
           <div className="absoluteCenter text-white text-center hidden card-text">
             <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
-            “ Uzun ömürlü ve dayanıklı Lamine parkeler sayesinde konforlu bir ortam sağlayın ”
+              “ Uzun ömürlü ve dayanıklı Lamine parkeler sayesinde konforlu bir
+              ortam sağlayın ”
             </h3>
             <a
               className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"

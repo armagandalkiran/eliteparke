@@ -16,7 +16,7 @@ export default function Home() {
       <div className="mb-4 py-1 px-4">
       <Swiper
         autoplay={{
-          delay: 8000,
+          delay: 6000,
         }}
       >
         <SwiperSlide>

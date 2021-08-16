@@ -22,7 +22,7 @@ export default function Footer() {
                             <PhoneIcon className="w-6 h-6 md:w-8 h-8"/>
                         </div>
                         <div className="col-span-2 flex items-center justify-start text-xs md:text-base lg:text-lg">
-                        +90 (555) 555 55 55
+                        +90 (252) 412 08 09
                         </div>
                     </div>
                     <div className="row grid grid-cols-3 gap-4">
@@ -30,7 +30,7 @@ export default function Footer() {
                             <MailIcon className="w-6 h-6 md:w-8 h-8"/>
                         </div>
                         <div className="col-span-2 flex items-center justify-start text-xs md:text-base lg:text-lg">
-                        deneme@hotmail.com
+                        marmarisparke@hotmail.com
                         </div>
                     </div>
                 </div>    

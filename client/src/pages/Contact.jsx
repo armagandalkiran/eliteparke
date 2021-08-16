@@ -90,15 +90,15 @@ export default function Contact() {
           <div className="flex-1 flex-col text-center items-center  border border-gray-200 shadow-sm p-6 mb-8 md:mb-0 lg:text-lg">
             <PhoneIcon className="mx-auto" />
             <h3 className="font-bold text-3xl text-contactText my-5">Telefon</h3>
-            <p> +90 (555) 555 55 55</p>
+            <p> <strong>Marmaris</strong> :  +90 (252) 412 08 09</p>
             <hr className="w-full my-4" />
-            <p>+90 (555) 555 55 55</p>
+            <p> <strong>Datça</strong> : +90 (532) 684 50 93</p>
           </div>
 
           <div className="flex-1 flex-col  text-center items-center  border border-gray-200 shadow-sm mb-4 md:mb-0 p-6 lg:text-xl">
             <MailIcon className="mx-auto"/>
             <h3 className="font-bold text-3xl text-contactText my-6">Mail</h3>
-            <p>deneme@hotmail.com</p>
+            <p>marmarisparke@hotmail.com</p>
           </div>
         </div>
       </div>

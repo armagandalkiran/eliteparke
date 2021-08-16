@@ -29,10 +29,19 @@ function Lamine(){
                     )
                 })}
             </div>
+            <h3 className="text-header p-6 font-bold text-xl md:text-6xl">Markalar</h3>
+            <div className="p-6 grid grid-cols-1 gap-8 mt-8 md:grid-cols-5">
+                {images.lamineMarka.map((image,index) => {
+                    return (
+                        <div className="p-4 col-span-1 border border-gray shadow-lg" key={index}>
+                        <img className="w-full h-full" alt={`${image.desc}`} src={`${image.url}`}/>
+                        </div>          
+                    )
+                })}
+            </div>
             <div className="text-center text-xl my-8 px-4">
                 <p>Daha fazla ürün ve renk seçenekleri için bizimle <a className="font-bold underline" href="/iletisim">iletişime geçin.</a></p>
             </div>
-            <h3 className="text-header p-6 font-bold text-xl md:text-6xl">Markalar</h3>
         </div>
     )
 }

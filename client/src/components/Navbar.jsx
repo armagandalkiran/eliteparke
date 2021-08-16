@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="top-0 fixed bg-white w-full z-10">
+      <nav className="top-0 fixed bg-white w-full z-10">
         <div className="flex justify-between items-center  text-customText p-6 relative">
           <Link to="/">
             <h1 className="text-2xl font-extrabold md:hidden uppercase text-header">
@@ -71,7 +71,7 @@ export default function Navbar() {
             </Link>
           </ul>
         </div>
-      </div>
+      </nav>
     </>
   );
 }

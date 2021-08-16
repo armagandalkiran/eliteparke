@@ -53,6 +53,23 @@ export default function Home() {
           </div>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+        <div className=" ">
+          <div className="bg-cover bg-center  h-auto text-white  py-10 px-3 md:py-24 md:px-10 object-fill image3">
+            <div className="flex flex-col w-1/2 items-center text-center">
+              <h2 className="text-customText font-extrabold text-md mb-2 md:mb-6 md:text-4xl">
+                Elite Parke ile kalite otelinizde!
+              </h2>
+              <a
+                href="/iletisim"
+                className=" border border-black text-customText font-medium text-xs lg:font-semibold lg:text-lg md:py-2 md:px-4 py-1 px-2 rounded hover:bg-primary hover:text-white"
+              >
+                İLETİŞİME GEÇİN
+              </a>
+            </div>
+          </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
       </div>
 

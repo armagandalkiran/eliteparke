@@ -9,45 +9,5 @@
   </head>
   <body class="font-body">
     <div id="root"></div>
-
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-    <script>
-       var cont=0;
-function loopSlider(){
-  var xx= setInterval(function(){
-        switch(cont)
-        {
-        case 0:{
-            $("#slider-1").fadeOut(600);
-            $("#slider-2").delay(600).fadeIn(600);
-        cont=1;
-        
-        break;
-        }
-        case 1:
-        {
-        
-            $("#slider-2").fadeOut(600);
-            $("#slider-1").delay(600).fadeIn(600);
-           
-        cont=0;
-        
-        break;
-        }
-        
-        
-        }},6000);
-
-}
-
-
-    $(window).ready(function(){
-        $("#slider-2").hide();
-        $("#sButton1").addClass("bg-purple-800");
-        
-        loopSlider();
-    
-    });
-    </script>
   </body>
 </html>

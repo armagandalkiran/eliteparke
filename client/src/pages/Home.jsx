@@ -64,7 +64,7 @@ export default function Home() {
                 href="/iletisim"
                 className=" border border-black text-customText font-medium text-xs lg:font-semibold lg:text-lg md:py-2 md:px-4 py-1 px-2 rounded hover:bg-primary hover:text-white"
               >
-                İLETİŞİME GEÇİNe
+                İLETİŞİME GEÇİN
               </a>
             </div>
           </div>

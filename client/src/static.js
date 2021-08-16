@@ -226,34 +226,64 @@ const images = {
             url: "/assets/202010267c6042c1-2eb5-41b3-8e7a-f956f11634c9.png",
         },
     ],
-    markalar:[
+    kapiMarka:[
         {
-            desc:"Tuek Indoor Life F30 Yangına Dayanıklı Ahşap Hastane Kapısı",
-            url: "https://res.cloudinary.com/dplmlhani/image/upload/v1628847064/eliteparke/indoorlife1_znsjp9.jpg",
+            desc:"Sur-kapi-logo",
+            url: "/assets/sur-logo.svg",
         },
         {
-            desc:"Tuek Indoor Life F30 Yangına Dayanıklı Ahşap Hastane Kapısı",
-            url: "https://res.cloudinary.com/dplmlhani/image/upload/v1628847064/eliteparke/indoorlife4_ewfu52.jpg",
+            desc:"Star-kapi-logo",
+            url: "/assets/star-logo.png",
         },
         {
-            desc:"Tuek Indoor Life F30 Yangına Dayanıklı Ahşap Hastane Kapısı",
-            url: "https://res.cloudinary.com/dplmlhani/image/upload/v1628847064/eliteparke/indoorlife2_flza8y.jpg",
+            desc:"West-kapi-logo",
+            url: "/assets/west-logo.png",
         },
         {
-            desc:"Tuek Indoor Life F30 Yangına Dayanıklı Ahşap Hastane Kapısı",
-            url: "https://res.cloudinary.com/dplmlhani/image/upload/v1628847064/eliteparke/indoorlife3_xio2np.jpg",
+            desc:"Indoor-kapi-logo",
+            url: "/assets/indoor-logo.webp",
+        },
+    ],
+    laminantMarka:[
+        {
+            desc:"Floorpan-logo",
+            url: "/assets/floorpan-logo.jpg",
         },
         {
-            desc:"Tuek Indoor Life F30 Yangına Dayanıklı Ahşap Hastane Kapısı",
-            url: "https://res.cloudinary.com/dplmlhani/image/upload/v1628847064/eliteparke/surcelik3_zmst2t.jpg",
+            desc:"Agt-logo",
+            url: "/assets/agt-logo.png",
         },
         {
-            desc:"Tuek Indoor Life F30 Yangına Dayanıklı Ahşap Hastane Kapısı",
-            url: "https://res.cloudinary.com/dplmlhani/image/upload/v1628846891/eliteparke/surcelik1_ysecvh.jpg",
+            desc:"DF-logo",
+            url: "/assets/DF_Logotype.svg",
         },
         {
-            desc:"Tuek Indoor Life F30 Yangına Dayanıklı Ahşap Hastane Kapısı",
-            url: "https://res.cloudinary.com/dplmlhani/image/upload/v1628847064/eliteparke/surcelik2_jwl8pz.jpg",
+            desc:"Ao-logo",
+            url: "/assets/aston-louis.png",
+        },
+        {
+            desc:"Ado-logo",
+            url: "/assets/ado-logo.png",
+        },
+        {
+            desc:"Krono-logo",
+            url: "/assets/krono-logo.png",
+        },
+    ],
+    lamineMarka:[
+        {
+            desc:"serifoglu-logo",
+            url: "/assets/serifoglulogo.jpg",
+        },
+        {
+            desc:"BerryAlloclogo",
+            url: "/assets/BerryAlloclogo_resized.jpg",
+        },
+    ],
+    supurgelikMarka:[
+        {
+            desc:"vevo-logo",
+            url: "/assets/vevologo.png",
         },
     ],
 }

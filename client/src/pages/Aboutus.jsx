@@ -1,5 +1,7 @@
 import React from "react";
-import aboutUs from "../images/about-us.jpg";
+import aboutUs from "../images/about-us.jpeg";
+import aboutUsSecondary from "../images/about-us2.jpeg";
+
 
 export default function Aboutus() {
   return (
@@ -18,7 +20,8 @@ export default function Aboutus() {
           satış mağazalarıyla iş hayatına devam etmektedir.
         </p>
       </div>
-      <img src={aboutUs} alt="aboutUs" className="mt-3" />
+      <img src={aboutUs} alt="aboutUs" className="mt-3 w-96" />
+      <img src={aboutUsSecondary} alt="aboutUs" className="mt-3 w-96" />
     </div>
   );
 }

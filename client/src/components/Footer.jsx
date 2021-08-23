@@ -14,7 +14,7 @@ export default function Footer() {
                             <PinIcon className="w-6 h-6 md:w-8 h-8"/>
                         </div>
                         <div className="col-span-2 text-left text-xs md:max-w-xs md:text-base lg:text-lg">
-                        Kemeraltı Mah Org. Mustafa Muğlalı Cad No:21/1 48700 Marmaris/Muğla
+                        Kemeraltı Mah Org. Mustafa Muğlalı Cad No:21/1 <span className="block md:inline-block">48700 Marmaris/Muğla</span>
                         </div>
                     </div>
                     <div className="row grid grid-cols-3 gap-4">
@@ -35,7 +35,8 @@ export default function Footer() {
                     </div>
                 </div>    
             </div>
-            <h2 className="bg-secondary w-full py-1 text-sm">© 2021 ELITE PARKE TÜM HAKLARI SAKLIDIR</h2> 
+            <h2 className="bg-secondary w-full py-1 md:text-lg">© 2021 ELITE PARKE TÜM HAKLARI SAKLIDIR</h2>
+            <h3 className="pr-36 md:text-xl text-right pt-10 pb-4 text-primary w-full bg-white">Made by <a className="font-bold" rel="noopener noreferrer" target="_blank" href="https://yorusoft.com">yorusoft</a></h3> 
         </footer>
     )
 }

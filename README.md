@@ -1,5 +1,5 @@
-Project Team
+# Project Team
 
-Technologies
+3 Technologies
 
-User Interfaces
+3 User Interfaces

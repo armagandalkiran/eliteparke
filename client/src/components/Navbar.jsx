@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center  text-customText p-6 relative">
           <Link to="/">
             <h1 className="text-2xl font-extrabold md:hidden uppercase text-header">
-              Elite Parke
+              Elıte Parke
             </h1>
           </Link>
           {iconVisiblity ? (
@@ -41,7 +41,7 @@ export default function Navbar() {
             </NavLink>
             <Link to="/" className="mr-4">
               <h1 className="text-4xl font-extrabold uppercase text-header">
-                Elite Parke
+                Elıte Parke
               </h1>
             </Link>
             <NavLink exact to="/referanslar" className="mr-4">

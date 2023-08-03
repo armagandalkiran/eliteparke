@@ -15,72 +15,12 @@ export default function Contact() {
           height="450"
           loading="lazy"
         ></iframe>
-        {/* <div className="flex flex-col md:flex-row md:text-lg items-center text-center justify-around gap-y-4">
-          <div className="flex gap-x-7 p-4">
-            <LocationIcon />
-            <p className="text-sm md:text-lg">
-              Kemeraltı Mah Org.Mustafa Muğlalı Cad No:21/1 48700 Marmaris/Muğla
-            </p>
-          </div>
-
-          <div className="flex gap-x-7 p-4">
-            <PhoneIcon />
-            <p>+90 (555) 555 55 55</p>
-          </div>
-
-          <div className="flex gap-x-7 p-4">
-            <MailIcon />
-            <p>deneme@hotmail.com</p>
-          </div>
-        </div> */}
-        {/* <div className="grid grid-rows-3 gap-y-4">
-       
-          <div className="row grid grid-flow-col md:grid-cols-3 ">
-            <div className="col-span-1 flex items-center justify-center">
-              <LocationIcon className="w-6 md:w-8" />
-            </div>
-            <div className="col-span-2 flex items-center text-center ">
-              <div className="text-xs md:max-w-xs md:text-base lg:text-lg  border-r-2">
-                Kemeraltı Mah Org. Mustafa Muğlalı Cad No:21/1 48700
-                Marmaris/Muğla
-              </div>
-              <div className="md:ml-3 text-xs md:max-w-xs md:text-base lg:text-lg">
-                İskele Mah. Kazım Yılmaz Blv. No: 59/A Datça/Muğla
-              </div>
-            </div>
-          </div>
-
-         
-          <div className="row grid grid-flow-col md:grid-cols-3 ">
-            <div className="col-span-1 flex items-center justify-center">
-              <PhoneIcon className="w-6 md:w-8" />
-            </div>
-            <div className="col-span-2 flex items-center justify-evenly md:justify-start">
-              <div className="pr-3 text-xs md:max-w-xs md:text-base lg:text-lg  border-r-2">
-                +90 (555) 555 55 55
-              </div>
-              <div className="md:ml-3 text-xs md:max-w-xs md:text-base lg:text-lg">
-                +90 (555) 555 55 55
-              </div>
-            </div>
-          </div>
-
-        
-          <div className="row grid grid-flow-col md:grid-cols-3 ">
-            <div className="col-span-1 flex items-center justify-center">
-              <MailIcon className="w-6 md:w-8" />
-            </div>
-            <div className="col-span-2 flex items-center justify-center  md:justify-start text-sm md:text-base lg:text-lg">
-              deneme@hotmail.com
-            </div>
-          </div>
-        </div> */}
         <div className="flex flex-col lg:flex-row xl:gap-x-40 md:gap-x-10 gap-y-10">
           <div className="flex-1 flex-col text-center items-center border border-gray-200 shadow-sm mt-4 mb-8 md:mt-0 md:mb-0 p-6 lg:text-lg">
             <LocationIcon className="mx-auto"/>
             <h3 className="font-bold text-3xl text-contactText my-4">Adres</h3>
             <p>
-              Kemeraltı Mah Org. Mustafa Muğlalı Cd.  No:21/1 48700
+              Armutalan, Namık Kemal Cd. No: 1A Bina No: 609148325, 48700
               Marmaris/Muğla
             </p>
             <hr className="w-full my-2" />

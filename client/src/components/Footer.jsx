@@ -16,7 +16,7 @@ export default function Footer() {
               <PinIcon className="w-6 h-6 md:w-8 h-8" />
             </div>
             <div className="col-span-2 text-left text-xs md:max-w-xs md:text-base lg:text-lg">
-              Kemeraltı Mah Org. Mustafa Muğlalı Cad No:21/1{" "}
+              Armutalan, Namık Kemal Cd. No: 1A Bina No: 609148325, {" "}
               <span className="block md:inline-block">
                 48700 Marmaris/Muğla
               </span>
@@ -43,17 +43,6 @@ export default function Footer() {
       <h2 className="bg-secondary w-full py-1 md:text-lg">
         © 2021 ELITE PARKE TÜM HAKLARI SAKLIDIR
       </h2>
-      <h3 className="md:pr-36 md:text-xl md:text-right text-center py-2  md:pt-8 md:pb-4 text-primary w-full bg-white">
-      <span className="font-light">Site Creation & Technology by </span>
-        <a
-          className="font-bold hover:underline"
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://yorusoft.com"
-        >
-          yorusoft
-        </a>
-      </h3>
     </footer>
   );
 }
